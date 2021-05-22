@@ -1,5 +1,6 @@
 package net.barakiroth.lombok_vs_record_vs_kotlin;
 
+import io.swagger.oas.annotations.media.Schema;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
@@ -12,5 +13,6 @@ import lombok.extern.jackson.Jacksonized;
 @EqualsAndHashCode
 @ToString
 public class MySuperClassDto {
+    @Schema(description = "Surrogate instance unique identifier", example = "10378465")
     private final int id;
 }
