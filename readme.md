@@ -1,7 +1,7 @@
 # Comparison matrix
 - Assumed in all cases below:
-  - Immutability is assumed
-  - Call from Java is assumed
+  - Immutability
+  - Call from Java
 - Assessments
   - YES : No code required (annotation possibly required)
   - YES+: Neither code nor annotation required
