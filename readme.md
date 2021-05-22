@@ -18,7 +18,7 @@ In a Java code base there is a need for DTOs which are...
     - YES+: Neither code nor annotation required
     - NO  : Impossible without added coding
     - NO+ : Can get somewhat closer than nothing
-# The winner is: *Java class with lombok*
+# The winner is: *Java class with Lombok*
 
 # Nice to use
 - mvn versions:display-dependency-updates
